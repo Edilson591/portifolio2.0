@@ -1,7 +1,7 @@
 {
     "name": "Edilson Luciano dos Santos",
     "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-    "job": "Tecnologo em Radiologia", Junior Web Developer
+    "job": "Tecnologo em Radiologia", "Junior Web Developer"
     "location": "São Miguel dos Campos - AL",
     "phone": "(82) 99622-7970",
     "email": "edilson591@gmail.com",
@@ -40,7 +40,7 @@
         "github": true
       },
       {
-        "name": Projeto Lâmpada Simples",
+        "name": "Projeto Lâmpada Simples",
         "url": "https://github.com/Edilson591/Projeto-Lampada",
         "github": true
       }
