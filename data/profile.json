@@ -1,78 +1,60 @@
 {
     "name": "Edilson Luciano dos Santos",
     "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-    "job": "Tecnologo em Radiologia",
+    "job": "Tecnologo em Radiologia", Junior Web Developer
     "location": "São Miguel dos Campos - AL",
     "phone": "(82) 99622-7970",
     "email": "edilson591@gmail.com",
     "skills": {
       "hardSkills": [
         {
-          "name": "Nodejs",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+          "name": "JS",
+          "logo": "https://raw.githubusercontent.com/Edilson591/PortifolioEdilsonL.github.io/main/data/imgs/js.png"
+        },{
+          "name": "CSS",
+          "logo": "https://raw.githubusercontent.com/Edilson591/PortifolioEdilsonL.github.io/main/data/imgs/css.png"
         },
-        {
-          "name": "Java",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
-        },
-        {
-          "name": "Angular",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
-        },
-        {
-          "name": "React",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
-        },
-        {
-          "name": "Mongodb",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
-        },
-        {
-          "name": "Postgresql",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+          {
+          "name": "HTML",
+          "logo": "https://raw.githubusercontent.com/Edilson591/PortifolioEdilsonL.github.io/main/data/imgs/html.png"
         }
       ],
       "softSkills": [
         "Liderança",
         "Empatia",
-        "Flexibilidade",
+        "Conhecimento técnico e aprendizado contínuo",
+        "Pensamento criativo",
         "Trabalho em equipe",
-        "Organização"
+        "Organização",
+        "Autoconfiança"
       ]
     },
     "languages": [
       "Português BR",
-      "Inglês (intermediário)",
-      "Espanhol (intermediário)",
-      "Italiano (iniciante)"
+      "Inglês (intermediário)"
     ],
     "portfolio": [
       {
-        "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-        "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+        "name": "Minha primeira pokedex",
+        "url": "https://github.com/Edilson591/First-Pokedex",
         "github": true
       },
       {
-        "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-        "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+        "name": Projeto Lâmpada Simples",
+        "url": "https://github.com/Edilson591/Projeto-Lampada",
         "github": true
       }
     ],
     "professionalExperience": [
       {
-        "name": "Arquiteto de software / S3 BANK",
-        "period": "2022 - até o momento",
-        "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+        "name": "Tecnico em radiolgia",
+        "period": "2021 até o momento",
+        "description": "Resposavel por preparar o paciente e o ambiente para a realização de exames nos serviços de radiologia e diagnóstico por imagem, como mamografia, hemodinâmica, tomografia computadorizada, densitometria óssea, ressonância magnética nuclear e ultrassonografia."
       },
       {
-        "name": "Software Engineering Lead / DIO",
-        "period": "2021 - 2022",
-        "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
-      },
-      {
-        "name": "CEO / Brain Machine",
-        "period": "2016 - 2021",
-        "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+        "name": "assistente Telemarking",
+        "period": "2019 - 2020",
+        "description": "Fazer venda direta de produtos e serviços (cartões de crédito, empréstimos, assinaturas de jornais e revistas, etc.)."
       }
     ]
   }
