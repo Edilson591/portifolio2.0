@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "fontes"
+		},
+		{
+			"path": "img"
+		},
+		{
+			"path": "js"
+		},
+		{
+			"path": ".vscode"
+		},
+		{
+			"path": "css"
+		},
+		{
+			"path": "data"
+		}
+	]
+}

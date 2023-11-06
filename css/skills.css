@@ -1,0 +1,49 @@
+.skill{
+    display: flex;
+    flex-direction: column;
+}
+
+.skill .appliance ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+#uptade-hard-skill img {
+    margin: 0 .5rem;
+    max-width: 50px;
+    height: auto;
+}
+
+
+.skill .ability ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.skill .ability ul li {
+    margin-left: 15px;
+    padding: .5rem;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
+@media only screen and (min-width: 768px) {
+    .skill{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

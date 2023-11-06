@@ -1,0 +1,61 @@
+
+.operator{
+   display: flex;
+   flex-direction:column;
+   border-radius: 1rem;
+   width: 100%;
+   border: 1px solid;
+   margin: 1rem 0;
+   transition: .25s;
+}
+
+.operator.open,
+.operator:hover{
+    background-color: rgba(141, 130, 238, 0.37);
+    border-color: rgba(141, 130, 238, 0.37);
+}
+.operator .content{
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+}
+
+.operator .section::after{
+    content: '';
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/Portifolio 2.0/img/icons/arrowDown.svg');
+    transition: .30s;
+}
+
+.operator.open .section::after{
+    transform: rotate(180deg);
+}
+
+
+.operator.open .content{
+    display: block;
+    height: auto;
+    padding: 0 1rem 1rem 2rem;
+    opacity: 1;
+}
+
+
+.operator .section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: .5rem 2rem;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+

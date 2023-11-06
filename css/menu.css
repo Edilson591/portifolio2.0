@@ -1,0 +1,99 @@
+#menu{
+    position: absolute;
+    top: 0rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2rem;
+
+}
+
+#btn-menu{
+    display: flex;
+    cursor: pointer; 
+    background: none;
+    border: none;
+    padding: .5rem 1rem;
+    
+    
+}
+#hamburguer{
+    display: block;
+    border-top: 2px solid;
+    width: 20px;
+}
+#hamburguer::after,#hamburguer::before{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin-top: 5px;
+    background: currentColor;
+    position: relative;
+    transition: .5s;
+}
+
+#menu.open #hamburguer{
+    border-top-color: transparent;
+}
+
+#menu.open #hamburguer::before{
+    transform: rotate(135deg);
+}
+
+#menu.open #hamburguer::after{
+    transform: rotate(-135deg);
+    top:-7px;
+}
+
+#menu ul {
+    display: none;
+}
+
+#menu.open ul{
+    display: block;
+    background-color: transparent;
+    list-style: none;
+}
+#menu.open a:hover{
+    cursor: pointer;
+    
+
+}
+
+#menu.open #information-additional{
+    position: absolute;
+    left: -3rem
+}
+
+#menu.open ul li{
+    margin-top: .5rem;
+}
+
+#menu.open ul li.linkedin::before{
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/img/icons/linkedin.svg);
+    margin-left: -1.5rem;
+    margin-right: 0.4rem;
+
+}
+
+#menu.open ul li.whatsapp::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/img/icons/whatsapp.svg);
+    margin-left: -1.5rem;
+    margin-right: 0.4rem;
+    position: absolute;
+}
+
+
+
